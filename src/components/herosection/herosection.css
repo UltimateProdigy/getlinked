@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
+
+.intro {
+  color: #fff;
+  font-family: "Aleo", serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  padding-top: 80px;
+}
+.hackaton {
+  color: #fff;
+  font-family: "Aleo", serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+span {
+  color: #d434fe;
+}
+.ignite {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 40vw;
+}
+.about {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%; /* 33.2px */
+  width: 550px;
+}
+.timer {
+  font-family: "Unica One", cursive;
+  color: white;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  padding-bottom: 70px;
+}
+.timerspan {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%; /* 18.62px */
+}
+.atom {
+  position: absolute;
+  top: 275px;
+  right: 80px;
+  width: 667px;
+  height: 641px;
+}
+.underline {
+    height: 100px;
+}
+.herosection {
+    margin-left: 5vw;
+    padding-top: 30px;
+}
