@@ -1,17 +1,14 @@
 import React from "react";
-import "./introduction.css";
-import Idea from "../../assets/images/Idea.png";
+import "./rules.css";
+import Rulesimg from "../../assets/images/Rules.png"
 
-const Introduction = () => {
+const Rules = () => {
   return (
-    <div className="intro-container">
+    <div className="rules-container">
       <div>
-        <img className="ideaimage" src={Idea} alt="Idea" />
-      </div>
-      <div>
-        <h3 className="introduction">Introduction to getlinked</h3>
-        <h3 className="techhackaton">tech Hackaton 1.0</h3>
-        <p className="abouttechhackaton">
+        <h3 className="rulesand">Rules and</h3>
+        <h3 className="guidelines">Guidelines</h3>
+        <p className="rules-intro">
           Our tech hackathon is a melting pot of visionaries, and its purpose is
           as clear as day: to shape the future. Whether you're a coding genius,
           a design maverick, or a concept wizard, you'll have the chance to
@@ -20,8 +17,11 @@ const Introduction = () => {
           change the world, that's what we're all about!
         </p>
       </div>
+      <div>
+        <img className="rulesimg" src={Rulesimg} alt="rules" />
+      </div>
     </div>
   );
 };
 
-export default Introduction;
+export default Rules;

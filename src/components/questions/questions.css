@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@900&display=swap");
+
+.frequentlyask {
+  color: #fff;
+  font-family: "Aleo", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 0px */
+}
+.questions {
+  color: #d434fe;
+  font-family: "Aleo", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%;
+}
+.question-intro {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+  width: 400px;
+  padding-bottom: 20px;
+}
+.glh {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.5px;
+}
+.questionsdiv {
+  width: 530px;
+  height: 500px;
+  color: white;
+}
+.question {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+  display: flex;
+  justify-content: space-between;
+}
+hr {
+    border-color: #D434FE;
+}
+.plus {
+    color: #D434FE;
+    cursor: pointer;
+}
+.question-container {
+    display: flex;
+    justify-content: space-between;
+}
+.qcd {
+    padding-left: 7vw;
+}
+.questionimg {
+    padding-right: 4vw;
+}

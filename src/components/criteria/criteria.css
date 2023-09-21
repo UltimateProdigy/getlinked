@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@900&display=swap");
+
+.judgecriteria {
+  color: #fff;
+  font-family: "Aleo", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 7;
+}
+.attributes {
+  color: #d434fe;
+  font-family: "Aleo", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%;
+}
+.criterias {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 173.5%;
+  width: 500px;
+}
+.criteria-header {
+  color: #ff26b9;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 173.5%; /* 27.76px */
+}
+.criteria-container {
+  display: flex;
+  justify-content: space-between;
+}
+.judgeimg {
+  margin-top: 150px;
+  width: 710px;
+  height: 587px;
+}
+.cri-con {
+    padding-right: 130px;
+}

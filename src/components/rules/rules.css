@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Aleo:wght@900&display=swap");
 
-.introduction {
+.rulesand {
   color: #fff;
   font-family: "Aleo", serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 0px */
-  padding-top: 110px;
+  padding-top: 160px;
 }
-.techhackaton {
+.guidelines {
   color: #d434fe;
   font-family: "Aleo", serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 4%;
+  line-height: 0%;
 }
-.abouttechhackaton {
+.rules-intro {
   color: #fff;
   font-family: Montserrat;
   font-size: 14px;
@@ -26,8 +26,8 @@
   line-height: 27.5px; /* 196.429% */
   width: 500px;
 }
-.intro-container {
+.rules-container {
     display: flex;
     justify-content: space-around;
-    padding-top: 90px;
+    margin-inline: 5vw;
 }
