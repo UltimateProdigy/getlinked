@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@900&display=swap');
-
 .navbar {
     display: flex;
     justify-content: space-between;
     margin-inline: 5vw;
+    margin-top: -20px;
 }
 .getlinked {
   color: #fff;
-  font-family: 'Aleo', serif;
+  font-family: 'Clash Display', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;

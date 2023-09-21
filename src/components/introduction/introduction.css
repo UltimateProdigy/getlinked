@@ -2,7 +2,7 @@
 
 .introduction {
   color: #fff;
-  font-family: "Aleo", serif;
+  font-family: 'Clash Display', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -11,7 +11,7 @@
 }
 .techhackaton {
   color: #d434fe;
-  font-family: "Aleo", serif;
+  font-family: 'Clash Display', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -29,5 +29,5 @@
 .intro-container {
     display: flex;
     justify-content: space-around;
-    padding-top: 90px;
+    padding-top: 40px;
 }

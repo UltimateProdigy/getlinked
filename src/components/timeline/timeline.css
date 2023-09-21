@@ -3,7 +3,7 @@
 .timeline-title {
   color: #fff;
   text-align: center;
-  font-family: "Aleo", serif;
+  font-family: 'Clash Display', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -17,5 +17,77 @@
   font-style: normal;
   font-weight: 400;
   line-height: 172.4%; /* 24.136px */
+  padding-bottom: 80px;
+}
+.timeline-announcement {
+  display: flex;
+  justify-content: space-around;
+}
+
+.vertical-rule {
+  position: relative;
+  width: 1px;
+  height: 100px;
+  background-color: #d434fe;
+  margin-left: 23px;
+}
+
+.vertical-rule::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 1px;
+  background-color: #d434fe;
+  
+}
+.timeline-number {
+  width: 53px;
+  height: 53px;
+  border-radius: 26.5px;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 20px;
+}
+.hackathon-announcement {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: right;
+  padding-top: 45px;
+}
+.hackathon-time {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 23.926px */
+  width: 450px;
+}
+.vr {
+    padding-right: 300px;
+}
+.hackathon-time-2 {
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -300px; 
+    padding-top: 80px;
+    padding-right: 220px;
+}
+.num {
+    padding-top: 7px;
 }
 
