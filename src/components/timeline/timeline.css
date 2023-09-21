@@ -3,7 +3,7 @@
 .timeline-title {
   color: #fff;
   text-align: center;
-  font-family: 'Clash Display', sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -23,13 +23,16 @@
   display: flex;
   justify-content: space-around;
 }
-
+.second-container {
+  display: flex;
+  justify-content: space-around;
+}
 .vertical-rule {
   position: relative;
   width: 1px;
   height: 100px;
   background-color: #d434fe;
-  margin-left: 23px;
+  margin-left: 27px;
 }
 
 .vertical-rule::before {
@@ -41,7 +44,6 @@
   height: 100%;
   width: 1px;
   background-color: #d434fe;
-  
 }
 .timeline-number {
   width: 53px;
@@ -53,6 +55,15 @@
   font-family: Montserrat;
   margin-top: 20px;
 }
+
+.num {
+  padding-top: 7px;
+}
+.div2 {
+  padding-right: 50px;
+}
+
+/**NUMBER 1 **/
 .hackathon-announcement {
   color: #d434fe;
   font-family: Montserrat;
@@ -61,9 +72,9 @@
   font-weight: 700;
   line-height: normal;
   text-align: right;
-  padding-top: 45px;
+  padding-top: 65px;
 }
-.hackathon-time {
+.hackathon-public {
   color: #fff;
   text-align: right;
   font-family: Montserrat;
@@ -74,20 +85,200 @@
   width: 450px;
 }
 .vr {
-    padding-right: 300px;
+  padding-right: 310px;
 }
-.hackathon-time-2 {
-    color: #D434FE;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-left: -300px; 
-    padding-top: 80px;
-    padding-right: 220px;
-}
-.num {
-    padding-top: 7px;
+.announcement {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: right;
+  padding-top: 100px;
+  margin-left: -300px;
+  padding-right: 210px;
 }
 
+/**NUMBER 2**/
+.registration-date {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 110px;
+  padding-left: 265px;
+  margin-right: 140px;
+}
+.registration-begins {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 65px;
+  margin-left: -100px;
+  padding-right: 150px;
+}
+.registers {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 23.926px */
+  width: 450px;
+  margin-left: -100px;
+}
+.vr2 {
+  padding-right: 210px;
+}
+
+/**NUMBER 3**/
+.registration-ends {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: right;
+  padding-top: 65px;
+}
+.no-registration {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 23.926px */
+  width: 450px;
+}
+.registration-end-date {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -300px;
+  padding-top: 100px;
+  padding-right: 220px;
+}
+.vr3 {
+  padding-right: 300px;
+}
+
+/**NUMBER 4 **/
+
+.teamsandideas {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 65px;
+  width: 450px;
+}
+.teamsandideasdiv {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 23.926px */
+  width: 450px;
+}
+.teamsandideadate {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 120px;
+  padding-left: 210px;
+}
+.vr4 {
+  padding-top: 8px;
+}
+
+/**NUMBER 5**/
+
+.begin {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: right;
+  padding-top: 65px;
+  margin-left: -60px;
+}
+.beginners {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 23.926px */
+  width: 450px;
+}
+.begin-time {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -300px;
+  padding-top: 100px;
+  padding-right: 220px;
+}
+.vr5 {
+  padding-right: 300px;
+}
+
+/**NUMBER 6**/
+.demo-time {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 110px;
+  padding-left: 260px;
+  padding-right: 100px;
+}
+.demo-day {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 65px;
+  margin-left: -200px;
+  padding-right: 150px;
+}
+.demo {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170.9%; /* 23.926px */
+  width: 450px;
+  margin-left: -200px;
+}
+.vr6 {
+  padding-right: 300px;
+}
