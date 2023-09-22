@@ -3,7 +3,7 @@
 
 .intro {
   color: #fff;
-  font-family: 'Clash Display', sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
@@ -13,7 +13,7 @@
 }
 .hackaton {
   color: #fff;
-  font-family: 'Clash Display', sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
@@ -62,14 +62,28 @@ span {
 .atom {
   position: absolute;
   top: 275px;
-  right: 80px;
+  right: 140px;
   width: 667px;
   height: 641px;
 }
 .underline {
-    height: 100px;
+  height: 100px;
 }
 .herosection {
-    margin-left: 5vw;
-    padding-top: 30px;
+  margin-left: 5vw;
+  padding-top: 30px;
+}
+
+/**animation**/
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.atom {
+  animation: rotate 20s linear infinite; /* Adjust the duration for slower or faster rotation */
 }

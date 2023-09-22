@@ -18,7 +18,7 @@ const Prizes = () => {
       </div>
       <div className="flex-container">
         <div>
-          <img src={Trophy} alt="trophy" />
+          <img className="trophy" src={Trophy} alt="trophy" />
         </div>
         <div className="medals">
           <div className="runnerup-div">

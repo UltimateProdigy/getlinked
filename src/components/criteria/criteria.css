@@ -44,3 +44,16 @@
 .cri-con {
     padding-right: 130px;
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the bounce height as needed */
+  }
+}
+
+.judgeimg {
+  animation: bounce 2s ease-in-out infinite; /* Adjust the duration for slower or faster bouncing */
+}

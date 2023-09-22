@@ -4,6 +4,8 @@ import Button from "../button/button";
 import Man from "../../assets/images/Man.png";
 import Atom from "../../assets/images/Atom.png";
 import Underline from "../../assets/images/Underline.png";
+import Chain from "../../assets/images/Chain.png";
+import Spark from "../../assets/images/Spark.png"
 
 const Herosection = () => {
   return (
@@ -28,7 +30,9 @@ const Herosection = () => {
       </div>
       <h2 className="intro">getlinked Tech</h2>
       <h1 className="hackaton">
-        Hackaton <span>1.0</span>
+        Hackaton <span>1.0 </span>
+        <img src={Chain} alt="chain" />
+        <img src={Spark} alt="spark" />
       </h1>
       <p className="about">
         Participate in getlinked tech Hackathon 2023 stand a chance to win a Big

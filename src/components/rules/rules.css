@@ -32,3 +32,17 @@
     margin-inline: 5vw;
     padding-top: 70px;
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the bounce height as needed */
+  }
+}
+
+.rulesimg {
+  animation: bounce 2s ease-in-out infinite; /* Adjust the duration for slower or faster bouncing */
+}
+
