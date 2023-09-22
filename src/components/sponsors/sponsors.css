@@ -12,6 +12,7 @@
   font-weight: 700;
   line-height: 27.5px; /* 85.938% */
   text-align: center;
+  margin-top: 200px;
 }
 .sponsorcompanies {
   color: #fff;
@@ -31,14 +32,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 450px;
+  position: relative;
+  top: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.sponsors {
-  padding-bottom: 730px;
-}
+
 .spon {
   width: 250px;
   height: 300px;
@@ -95,7 +94,7 @@
   font-weight: 400;
   line-height: 27.5px; /* 67.073% */
 }
-.plus {
+.pluz {
   color: #f00;
   font-family: Volkhov;
   font-size: 34px;

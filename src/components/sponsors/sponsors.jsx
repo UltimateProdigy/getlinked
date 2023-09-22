@@ -42,10 +42,11 @@ const Sponsors = () => {
           <img className="winwise" src={Winwise} alt="liberty-company" />
           <hr className="sponsorhr" />
           <h3 className="visualpluz">
-            Vuzual <span className="plus">Plus</span>
+            Vuzual <span className="pluz">Plus</span>
           </h3>
         </div>
-      </div>
+      </div> 
+      
     </div>
   );
 };
