@@ -1,11 +1,11 @@
 import React from "react";
-import Sponsors from "./components/sponsors/sponsors";
+import Policy from "./components/policy/policy";
 
 
 function App() {
   return (
     <div>
-      <Sponsors />
+      <Policy />
     </div>
   );
 }

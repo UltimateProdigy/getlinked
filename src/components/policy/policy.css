@@ -1,0 +1,27 @@
+.privacypolicy {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.terms {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+}
+.lastupdated {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+  margin-top: -14px;
+}
