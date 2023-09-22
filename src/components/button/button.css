@@ -15,10 +15,12 @@
   cursor: pointer;
 }
 .btnname {
-    font-family: Montserrat;
-    padding-top: 15px;
+  font-family: Montserrat;
+  padding-top: 15px;
 }
 .button:hover {
   transform: scale(0.8);
   transition: 0.5s;
 }
+
+

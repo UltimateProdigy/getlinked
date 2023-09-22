@@ -3,6 +3,7 @@ import "./navbar.css";
 import Button from "../button/button";
 
 const Navbar = () => {
+
   return (
     <div className="navbar">
       <h3 className="getlinked">

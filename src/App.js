@@ -1,10 +1,12 @@
 import React from "react";
-import Homepage from "./pages/Homepage/homepage";
+import Registeration from "./pages/registeration/register";
+import Contactus from "./pages/contact-us/contact-us";
 
 function App() {
   return (
     <div>
-      <Homepage />
+      <Contactus />
+      <Registeration />
     </div>
   );
 }

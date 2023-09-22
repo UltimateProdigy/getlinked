@@ -1,33 +1,39 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-inline: 5vw;
-    margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 5vw;
+  margin-top: -20px;
 }
 .getlinked {
   color: #fff;
-  font-family: 'Clash Display', sans-serif;
+  font-family: "Clash Display", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 span {
-    color: #D434FE;
+  color: #d434fe;
 }
 .navlink {
-    font-family: Montserrat;
-    color: white;
-    margin-right: 35px;
-    padding-top: 35px;
+  font-family: Montserrat;
+  color: white;
+  margin-right: 35px;
+  padding-top: 35px;
+}
+.navlink:active {
+  background: linear-gradient(90deg, #903aff 3.08%, #ff26b9 93.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .navlinks {
-    display: flex;
-    padding-right: 80px;
-    list-style: none;
-    cursor: pointer;
+  display: flex;
+  padding-right: 80px;
+  list-style: none;
+  cursor: pointer;
 }
 .navcontainer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
