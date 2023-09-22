@@ -1,0 +1,35 @@
+.partnernsponsors {
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.5px; /* 85.938% */
+  text-align: center;
+}
+.sponsorcompanies {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+}
+.company-container {
+  width: 1255px;
+  height: 560px;
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(255, 255, 255, 0.01);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sponsors {
+    padding-bottom: 730px;
+}
