@@ -82,7 +82,7 @@ const Policy = () => {
           </p>
           <button className="read-more">Read More</button>
         </div>
-        <div className="policy-img">
+        n<div className="policy-img">
           <img src={Policyimg} alt="policy" />
         </div>
       </div>
