@@ -1,0 +1,87 @@
+.footer-getlinked {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 5px;
+}
+.footer-linked {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-hackathon {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%; /* 20.688px */
+  width: 430px;
+}
+.termsofuse {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%; /* 20.688px */
+  margin-top: 50px;
+}
+.footer-link-header {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 172.4%; /* 24.136px */
+}
+.footer-link {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 172.4%; /* 20.688px */
+}
+.follow-us {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 172.4%; /* 24.136px */
+}
+.social-media {
+  padding-inline: 10px;
+}
+.footer-contact {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.9%; /* 18.948px */
+}
+.contact-svg {
+  padding-right: 20px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.rights {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 30px;
+  text-align: center;
+}
