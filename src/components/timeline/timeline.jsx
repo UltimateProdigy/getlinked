@@ -10,8 +10,6 @@ const Timeline = () => {
         event.
       </p>
 
-
-
       <div className="timeline-announcement">
         <div className="div">
           <h3 className="hackathon-announcement">Hackathon Announcement</h3>
@@ -31,8 +29,6 @@ const Timeline = () => {
         </div>
       </div>
 
-
-
       <div className="second-container">
         <div>
           <h3 className="registration-date">November 18, 2023</h3>
@@ -44,17 +40,13 @@ const Timeline = () => {
           </div>
         </div>
         <div className="div2">
-          <h3 className="registration-begins">
-            Teams Registration begins
-          </h3>
+          <h3 className="registration-begins">Teams Registration begins</h3>
           <p className="registers">
             Interested teams can now show their interest in the getlinked tech
             hackathon 1.0 2023 by proceeding to register
           </p>
         </div>
       </div>
-
-
 
       <div className="timeline-announcement">
         <div className="div">
@@ -73,7 +65,6 @@ const Timeline = () => {
           <h3 className="registration-end-date">November 18, 2023</h3>
         </div>
       </div>
-
 
       <div className="second-container">
         <div>
@@ -96,12 +87,9 @@ const Timeline = () => {
         </div>
       </div>
 
-      
       <div className="timeline-announcement">
         <div className="div">
-          <h3 className="begin">
-            Getlinked Hackathon 1.0 Offically Begins
-          </h3>
+          <h3 className="begin">Getlinked Hackathon 1.0 Offically Begins</h3>
           <p className="beginners">
             Accepted teams can now proceed to build their ground breaking skill
             driven solutions
@@ -117,8 +105,6 @@ const Timeline = () => {
           <h3 className="begin-time">November 18, 2023</h3>
         </div>
       </div>
-
-
 
       <div className="second-container">
         <div>

@@ -6,9 +6,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
+      <Link to="/" style={{textDecoration: "none"}}>
       <h3 className="getlinked">
         get<span>Linked</span>
       </h3>
+      </Link>
       <div className="navcontainer">
         <ul className="navlinks">
           <li className="navlink">Timeline</li>
