@@ -1,9 +1,9 @@
 import React from "react";
 import "./navbar.css";
 import Button from "../button/button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   return (
     <div className="navbar">
       <h3 className="getlinked">
@@ -14,7 +14,9 @@ const Navbar = () => {
           <li className="navlink">Timeline</li>
           <li className="navlink">Overview</li>
           <li className="navlink">FAQs</li>
-          <li className="navlink">Contact</li>
+          <Link to="/contactus" style={{textDecoration: "none"}}>
+            <li className="navlink">Contact</li>
+          </Link>
         </ul>
         <div>
           <Button name="Register" />
