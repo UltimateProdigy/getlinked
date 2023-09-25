@@ -1,13 +1,18 @@
 import React from "react";
-import Registeration from "./pages/registeration/register";
+import Homepage from "./pages/Homepage/homepage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contactus from "./pages/contact-us/contact-us";
 
 function App() {
   return (
-    <div>
-      <Contactus />
-      <Registeration />
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" exact element={<Homepage />} />
+          <Route path="/contactus" element={<Contactus />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
