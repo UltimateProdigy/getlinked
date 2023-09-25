@@ -24,6 +24,8 @@
 span {
   color: #d434fe;
 }
+
+
 .ignite {
   color: #fff;
   font-family: Montserrat;
@@ -32,7 +34,29 @@ span {
   font-weight: 700;
   line-height: normal;
   margin-left: 40vw;
+  white-space: nowrap;
+  animation: letter-fade-in 5s linear infinite; /* Adjust duration as needed */
 }
+@keyframes letter-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to each letter */
+.ignite::before {
+  content: attr(data-text);
+  display: inline-block;
+  opacity: 0;
+  animation: letter-fade-in 0.5s ease-in-out forwards; /* Adjust duration as needed */
+  animation-delay: calc(0.2s * var(--index)); /* Delay each letter animation */
+}
+
 .about {
   color: #fff;
   font-family: Montserrat;
